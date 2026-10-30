@@ -11,7 +11,7 @@ nào, và module nghiệp vụ cũng không phụ thuộc ngược lại.
 
 | Module | Mô tả |
 | --- | --- |
-| _(chưa có)_ | |
+| [jshp_bot_branding](jshp_bot_branding/README.md) | Đổi tên bot hệ thống và hướng dẫn @mention thành JSHPBot. |
 
 Thêm module mới thì thêm một dòng vào bảng này.
 

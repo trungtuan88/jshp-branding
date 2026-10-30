@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Remove the fixed login logo installed by version 1.1.0. -->
+    <delete model="ir.ui.view" search="[('key', '=', 'jshp_bot_branding.login_logo')]"/>
+    <template id="favicon" inherit_id="web.layout" name="JSHP favicon">
+        <xpath expr="//link[@rel='shortcut icon']" position="attributes">
+            <attribute name="type">image/png</attribute>
+            <attribute name="t-att-href"/>
+            <attribute name="href">/jshp_bot_branding/static/img/jshp_logo.png</attribute>
+        </xpath>
+    </template>
+</odoo>

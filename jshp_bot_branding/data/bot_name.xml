@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Explicit write also works on upgrade despite base.partner_root's noupdate. -->
+    <function model="res.partner" name="write">
+        <value eval="[ref('base.partner_root')]"/>
+        <value eval="{'name': 'JSHPBot'}"/>
+    </function>
+    <function model="res.users" name="_apply_jshp_bot_logo"/>
+</odoo>

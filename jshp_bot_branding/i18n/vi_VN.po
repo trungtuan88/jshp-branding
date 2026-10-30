@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Language: vi_VN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: jshp_bot_branding
+#: model:ir.model.fields,field_description:jshp_bot_branding.field_res_users__odoobot_state
+msgid "JSHPBot Status"
+msgstr "Trạng thái JSHPBot"
